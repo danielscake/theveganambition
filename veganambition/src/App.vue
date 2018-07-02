@@ -1,12 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="logo" src="./assets/logo.png">
+    <HelloWorld msg=""/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+
+
 
 export default {
   name: 'app',
@@ -25,4 +27,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+html{
+  background: #fdf5f8 !important;
+}
+
+.logo{
+  width:30%;
+}
+
 </style>
