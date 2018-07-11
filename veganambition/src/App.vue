@@ -1,6 +1,22 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
+    <nav class="level">
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Home</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Menu</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <img src="./assets/logo.png" alt="" style="height: 130px;">
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Reservations</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Contact</a>
+  </p>
+</nav>
     <HelloWorld msg=""/>
   </div>
 </template>
